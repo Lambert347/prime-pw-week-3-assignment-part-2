@@ -26,13 +26,13 @@ for (let i = 3; i < 6; i++)
 {
   console.log(i);
 }
-//Changes done: set the variable i to start at 3 to then count to 5.
+//Changes done: set the variable i to 3 instead of 0 and then count to 5.
 
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
-for (let i = 2; i < 11; i = i + 2)
+for (let i = 2; i < 11; i += 2)
 {
   console.log(i);
 }
